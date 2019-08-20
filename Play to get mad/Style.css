@@ -32,6 +32,9 @@ body{
     background-color: rgba(0, 255, 255, 0.438);
 }
 #score{
-    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    color: rgb(255, 115, 0);
     display: inline-block;
 }
