@@ -1,0 +1,37 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.location{
+    position:absolute;
+    cursor: pointer;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+}
+.congrats{
+    color: black;
+    width : 100%;
+    height : 100%;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+/*#back-ground{
+    position: absolute;
+    width: 100%;
+    top: 100;
+    height: 100%;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+body{
+    background-color: rgba(0, 255, 255, 0.438);
+}
+#score{
+    width: 200px;
+    display: inline-block;
+}
