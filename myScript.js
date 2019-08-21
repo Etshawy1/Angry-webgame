@@ -106,7 +106,7 @@ function levelLogic(){
         if(intscore >= 10 && intscore <= 15)
         {
             butt.onmouseover = function(){
-                butt.setAttribute("style", "width:"+btnwdth+"px;"+"height:"+btnhgt+"px;" + "top:" + (t + 10) +"px;" + "left:" + (le - 30) +"px;");
+                butt.setAttribute("style", "width:"+btnwdth+"px;"+"height:"+btnhgt+"px;" + "top:" + (t + 5) +"px;" + "left:" + (le - 5) +"px;");
             }
             if(interval > 170){
                 interval -= 100;
@@ -119,7 +119,7 @@ function levelLogic(){
         }
         if(intscore > 15){
             butt.onmouseover = function(){
-                butt.setAttribute("style", "width:"+btnwdth+"px;"+"height:"+btnhgt+"px;" + "top:" + (t + 30) +"px;" + "left:" + (le - 40) +"px;");
+                butt.setAttribute("style", "width:"+btnwdth+"px;"+"height:"+btnhgt+"px;" + "top:" + (t + 20) +"px;" + "left:" + (le - 20) +"px;");
             }
             interval = 100;
         }
