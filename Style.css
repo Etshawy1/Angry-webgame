@@ -2,6 +2,14 @@
     padding:0px;
     margin:0px;
 }
+
+html {
+    background-image: url("backgnd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .location{
     position:absolute;
     cursor: pointer;
