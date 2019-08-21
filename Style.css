@@ -1,0 +1,53 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.location{
+    position:absolute;
+    cursor: pointer;
+    background-image: url("anger.png");
+    background-size: 100% 100%; 
+}
+
+.image-anger{
+    position:absolute;
+    cursor: pointer;
+    background-image: url("angry.png");
+    background-size: 100% 100%; 
+    border-radius: 50%;
+}
+.congrats{
+    color: black;
+    width : 100%;
+    height : 100%;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+/*#back-ground{
+    position: absolute;
+    width: 100%;
+    top: 100;
+    height: 100%;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+/*body{
+    background-image: url("backgnd.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+#score{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
