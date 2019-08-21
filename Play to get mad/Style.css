@@ -6,7 +6,15 @@
     position:absolute;
     cursor: pointer;
     background-image: url("anger.png");
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
+}
+
+.image-anger{
+    position:absolute;
+    cursor: pointer;
+    background-image: url("angry.png");
+    background-size: 100% 100%; 
+    border-radius: 50%;
 }
 .congrats{
     color: black;
@@ -28,13 +36,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
-body{
-    background-color: rgba(0, 255, 255, 0.438);
-}
+/*body{
+    background-image: url("backgnd.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
 #score{
     margin-top: 10px;
     margin-left: 15px;
     font-size: 25px;
-    color: rgb(255, 115, 0);
+    background-image: url("anger.png");
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
     display: inline-block;
 }
