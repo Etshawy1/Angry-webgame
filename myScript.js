@@ -15,8 +15,8 @@ var intscore = 0;
 var interval = 400; 
 
 //random co-ordinates for the button
-var t = (Math.random() * (window.innerHeight - btnhgt));   
-var le = (Math.random() * (window.innerWidth - btnwdth)); 
+var t = (Math.random() * (window.innerHeight - btnhgt - 5));   
+var le = (Math.random() * (window.innerWidth - btnwdth - 5)); 
 
 //initially the button makes down right movement
 var up = false; 
@@ -53,10 +53,10 @@ function play(obj)
         le += intscore > 15 ? Math.random() * 10 : 10;
     }
 
-    //apply the new location for the button
-    obj.style.top = t + "px";
-    obj.style.left = le +"px";
 
+    //apply the new location for the button
+    obj.style.top = t > innerHeight - btnhgt? (innerHeight - btnhgt) + "px" : t + "px";
+    obj.style.left = le > innerWidth - btnwdth ? (innerWidth - btnwdth) + "px" : le +"px";
 
     //those if statements are responsible for the direction of the movement
     if(t <= 0){
@@ -73,12 +73,15 @@ function play(obj)
         left = true;
     }
 
+    
+
 }
 
 function levelLogic(){
     intscore++;
     score.innerHTML = "your score is: " + intscore;
     var congrats = document.createElement('h1');
+    congrats.classList.add("congrats");
     congrats.innerHTML = "Congratulations You passed this stage press this text to proceed,<br> be aware it gets harder as you proceed";
     
     //play the worst music of all time
@@ -131,8 +134,8 @@ function levelLogic(){
         //interval is cleared here to put the new interval for the new difficulty of the game which should be less than the previous value(faster movement)
         clearInterval();
 
-        t = (Math.random() * (window.innerHeight - btnhgt));
-        le = (Math.random() * (window.innerWidth - btnwdth));
+        t = (Math.random() * (window.innerHeight - btnhgt - 5));
+        le = (Math.random() * (window.innerWidth - btnwdth- 5));
         
         //reduce the button size and appear in a random place on the screen
         butt.setAttribute("style", "width:"+btnwdth+"px;"+"height:"+btnhgt+"px;" + "top:" + t +"px;" + "left:" + le +"px;");

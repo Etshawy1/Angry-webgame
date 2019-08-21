@@ -16,13 +16,15 @@
     background-size: 100% 100%; 
     border-radius: 50%;
 }
+
+
 .congrats{
     color: black;
     width : 100%;
-    height : 100%;
+    min-height : 100%;
     background-image: url("anger.png");
     background-size: 100% 100%;
-    font-size: 48px;
+    font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
 }
@@ -36,12 +38,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
-/*body{
-    background-image: url("backgnd.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}*/
+
 #score{
     margin-top: 10px;
     margin-left: 15px;
