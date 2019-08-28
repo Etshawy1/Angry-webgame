@@ -23,7 +23,7 @@ var up = false;
 var left = false; 
 
 
-aud.src = "angry.mp3";
+aud.src = "audio/angry.mp3";
 aud.setAttribute("loop", "true");
 
 //display the current score and the button

@@ -4,20 +4,20 @@
 }
 
 html {
-    background-image: url("backgnd.jpg");
+    background-image: url("../images/backgnd.jpg");
 }
 
 .location{
     position:absolute;
     cursor: pointer;
-    background-image: url("anger.png");
+    background-image: url("../images/anger.png");
     background-size: 100% 100%; 
 }
 
 .image-anger{
     position:absolute;
     cursor: pointer;
-    background-image: url("angry.png");
+    background-image: url("../images/angry.png");
     background-size: 100% 100%; 
     border-radius: 50%;
 }
@@ -27,7 +27,7 @@ html {
     color: black;
     width : 100%;
     min-height : 100%;
-    background-image: url("anger.png");
+    background-image: url("../images/anger.png");
     background-size: 100% 100%;
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
@@ -48,7 +48,7 @@ html {
     margin-top: 10px;
     margin-left: 15px;
     font-size: 25px;
-    background-image: url("anger.png");
+    background-image: url("../images/anger.png");
     background-size: 100% 100%;
     color: rgb(0, 0, 0);
     display: inline-block;
