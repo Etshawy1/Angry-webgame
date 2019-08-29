@@ -83,7 +83,8 @@ function levelLogic(){
     var congrats = document.createElement('h1');
     congrats.classList.add("congrats");
     congrats.innerHTML = "Congratulations You passed this stage press this text to proceed,<br> be aware it gets harder as you proceed";
-    
+    congrats.style.height = "-3vw";
+    congrats.style.fontSize = "3.5em";
     //play the worst music of all time
     if(intscore == 5){
         aud.play()
