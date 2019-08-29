@@ -82,8 +82,8 @@ function levelLogic(){
     score.innerHTML = "your score is: " + intscore;
     var congrats = document.createElement('h1');
     congrats.classList.add("congrats");
-    congrats.innerHTML = "Congratulations You passed this stage press this text to proceed,<br> be aware it gets harder as you proceed";
-    congrats.style.fontSize = "2em";
+    congrats.innerHTML = "Congrats You passed this stage press this text to proceed,<br> be aware it gets harder as you proceed";
+    congrats.style.fontSize = "1.4em";
     congrats.style.height = "85vh";
     //play the worst music of all time
     if(intscore == 5){
